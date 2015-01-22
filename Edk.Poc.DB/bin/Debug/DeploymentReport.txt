@@ -1,0 +1,50 @@
+﻿** Highlights
+     Tables that will be rebuilt
+       None
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       None
+
+** User actions
+     Create
+       [dbo].[Driver] (Table)
+       [dbo].[Feature] (Table)
+       [dbo].[FeatureRole] (Table)
+       [dbo].[Role] (Table)
+       [dbo].[User] (Table)
+       [dbo].[UserRole] (Table)
+       [dbo].[Vehicle] (Table)
+       Default Constraint: unnamed constraint on [dbo].[Driver] (Default Constraint)
+       Default Constraint: unnamed constraint on [dbo].[Driver] (Default Constraint)
+       Default Constraint: unnamed constraint on [dbo].[Driver] (Default Constraint)
+       Default Constraint: unnamed constraint on [dbo].[Driver] (Default Constraint)
+       Default Constraint: unnamed constraint on [dbo].[Driver] (Default Constraint)
+       Default Constraint: unnamed constraint on [dbo].[Driver] (Default Constraint)
+       Default Constraint: unnamed constraint on [dbo].[Driver] (Default Constraint)
+       Default Constraint: unnamed constraint on [dbo].[Driver] (Default Constraint)
+       Default Constraint: unnamed constraint on [dbo].[Driver] (Default Constraint)
+       Default Constraint: unnamed constraint on [dbo].[Driver] (Default Constraint)
+       Default Constraint: unnamed constraint on [dbo].[Driver] (Default Constraint)
+       Default Constraint: unnamed constraint on [dbo].[Feature] (Default Constraint)
+       Default Constraint: unnamed constraint on [dbo].[FeatureRole] (Default Constraint)
+       Default Constraint: unnamed constraint on [dbo].[Role] (Default Constraint)
+       Default Constraint: unnamed constraint on [dbo].[User] (Default Constraint)
+       Default Constraint: unnamed constraint on [dbo].[User] (Default Constraint)
+       Default Constraint: unnamed constraint on [dbo].[User] (Default Constraint)
+       Default Constraint: unnamed constraint on [dbo].[UserRole] (Default Constraint)
+       Default Constraint: unnamed constraint on [dbo].[Vehicle] (Default Constraint)
+       Default Constraint: unnamed constraint on [dbo].[Vehicle] (Default Constraint)
+       Default Constraint: unnamed constraint on [dbo].[Vehicle] (Default Constraint)
+       Default Constraint: unnamed constraint on [dbo].[Vehicle] (Default Constraint)
+       Default Constraint: unnamed constraint on [dbo].[Vehicle] (Default Constraint)
+       Default Constraint: unnamed constraint on [dbo].[Vehicle] (Default Constraint)
+       Default Constraint: unnamed constraint on [dbo].[Vehicle] (Default Constraint)
+       [dbo].[FK_dbo.featureRole_dbo.role_id] (Foreign Key)
+       [dbo].[FK_dbo.featureRole_dbo.function_id] (Foreign Key)
+       [dbo].[FK_dbo.userRole_dbo.role_id] (Foreign Key)
+       [dbo].[FK_dbo.userRole_dbo.user_id] (Foreign Key)
+
+** Supporting actions

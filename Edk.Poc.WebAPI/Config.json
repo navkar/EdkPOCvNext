@@ -1,0 +1,8 @@
+﻿{
+    "Data": {
+        "DefaultConnection": {
+            //"ConnectionString": "Data Source=W8;Database=EdkPocDB;Integrated Security=True;Pooling=False"
+            "ConnectionString": "Data Source=sbxw128hgm.database.windows.net;Database=EdkPocDB;Persist Security Info=True;User ID=activelyAdmin;Password=27April2014;Pooling=False"
+        }
+    }
+}

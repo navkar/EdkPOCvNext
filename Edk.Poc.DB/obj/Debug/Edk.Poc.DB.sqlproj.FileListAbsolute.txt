@@ -1,0 +1,5 @@
+C:\Users\navka_000\Documents\Visual Studio 2015\Projects\EdkPoc\Edk.Poc.DB\bin\Debug\Edk.Poc.DB.dacpac
+C:\Users\navka_000\Documents\Visual Studio 2015\Projects\EdkPoc\Edk.Poc.DB\bin\Debug\EdkPoc.dll
+C:\Users\navka_000\Documents\Visual Studio 2015\Projects\EdkPoc\Edk.Poc.DB\bin\Debug\EdkPoc.pdb
+C:\Users\navka_000\Documents\Visual Studio 2015\Projects\EdkPoc\Edk.Poc.DB\obj\Debug\EdkPoc.dll
+C:\Users\navka_000\Documents\Visual Studio 2015\Projects\EdkPoc\Edk.Poc.DB\obj\Debug\EdkPoc.pdb

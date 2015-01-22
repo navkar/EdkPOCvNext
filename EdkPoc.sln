@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.22310.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "Edk.Poc.DB", "Edk.Poc.DB\Edk.Poc.DB.sqlproj", "{120EC3A5-DDD5-4B4C-946C-0258B68D07FE}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Edk.Poc.WebAPI", "Edk.Poc.WebAPI\Edk.Poc.WebAPI.kproj", "{5A21688D-1BAE-4EDD-A39A-0C94DD16222B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{120EC3A5-DDD5-4B4C-946C-0258B68D07FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{120EC3A5-DDD5-4B4C-946C-0258B68D07FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{120EC3A5-DDD5-4B4C-946C-0258B68D07FE}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{120EC3A5-DDD5-4B4C-946C-0258B68D07FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{120EC3A5-DDD5-4B4C-946C-0258B68D07FE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{120EC3A5-DDD5-4B4C-946C-0258B68D07FE}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{5A21688D-1BAE-4EDD-A39A-0C94DD16222B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A21688D-1BAE-4EDD-A39A-0C94DD16222B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A21688D-1BAE-4EDD-A39A-0C94DD16222B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A21688D-1BAE-4EDD-A39A-0C94DD16222B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

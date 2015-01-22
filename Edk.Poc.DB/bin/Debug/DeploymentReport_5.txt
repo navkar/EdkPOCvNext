@@ -1,0 +1,36 @@
+﻿** Highlights
+     Tables that will be rebuilt
+       [dbo].[VehicleMake]
+       [dbo].[VehicleModel]
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       The column [dbo].[VehicleMake].[vehicleYearID] is being dropped, data loss could occur.
+
+** User actions
+     Drop
+       unnamed constraint on [dbo].[VehicleMake] (Default Constraint)
+       unnamed constraint on [dbo].[VehicleMake] (Default Constraint)
+       unnamed constraint on [dbo].[VehicleModel] (Default Constraint)
+       unnamed constraint on [dbo].[VehicleModel] (Default Constraint)
+       [dbo].[FK_dbo.VehicleMake.vehicleYear] (Foreign Key)
+     Table rebuild
+       [dbo].[VehicleMake] (Table)
+       [dbo].[VehicleModel] (Table)
+     Create
+       [dbo].[FK_dbo.VehicleModel.vehicleYear] (Foreign Key)
+     Alter
+       [dbo].[VehicleData_Upsert] (Procedure)
+
+** Supporting actions
+     Drop
+       [dbo].[FK_dbo.VehicleModel.vehicleMake] (Foreign Key)
+       [dbo].[FK_dbo.VehicleBodytype.vehicleModel] (Foreign Key)
+     Create
+       [dbo].[FK_dbo.VehicleModel.vehicleMake] (Foreign Key)
+       [dbo].[FK_dbo.VehicleBodytype.vehicleModel] (Foreign Key)
+
+The column [dbo].[VehicleMake].[vehicleYearID] is being dropped, data loss could occur.
+
